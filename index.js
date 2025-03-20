@@ -1,8 +1,11 @@
 
 let myLeads = []
-const inputEl = document.getElementById("input-el")
+const inputEl = document.querySelector("#input-el")
 const inputBtn = document.getElementById("input-btn");
 
+
+
 inputBtn.addEventListener("click", function() {
-  myLeads.push("www.awesomelead.com")
+  myLeads.push(inputEl.value)
 })
+
