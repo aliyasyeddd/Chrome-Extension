@@ -5,12 +5,19 @@ body {
 }
 
 
-
-
 input {
-  
+  width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border:2px solid #5f9341;
+    margin-bottom: 4px;
 }
 
 button {
-  
+  background: #5f9341;
+  padding: 10px 20px; 
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
 }
